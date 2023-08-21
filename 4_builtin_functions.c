@@ -64,12 +64,18 @@ cmd_info *execute_env(cmd_info *command)
  */
 cmd_info *execute_cd(cmd_info *command)
 {
+	const char *home = getenv("HOME");
+
 	if (command->numb_args == 2)
 	{
 		if (chdir(command->args[1]) == -1)
 		{
 			perror("cd");
 		}
+	}
+	else if (command->numb_args == 1)
+	{
+		chdir(home);
 	}
 	else
 	{
