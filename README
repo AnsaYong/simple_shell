@@ -1,0 +1,75 @@
+# Simple_shell
+
+## Description:
+
+This Simple Shell project is a basic implementation of a command-line shell in C.
+It provides a simple user interface that allows users to execute commands, both built-in
+and system commands. This shell supports single commands with and without arguments, making
+it capable of handling more complex command sequences. It works in both interactive and
+non-interactive mode. The project was created by Ansa and Ayo.
+
+## Key Features:
+
+* Single commands execution
+* Execution of commands with arguments
+* Built-in commands (e.g., **'exit'**, **'env'**) handling
+* Automatic searching for executables in the PATH environment variable
+* Display of a prompt to signal readiness for user input
+* Handles the End-Of-File (EOF) condition
+
+## Usage:
+
+To use the Simple Shell, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Compile the source code.
+3. Run the shell executable.
+4. The shell will display a prompt, awaiting your command input.
+5. Enter commands and press Enter to execute them.
+
+### Examples:
+
+***Single command execution:***
+1. Without argument
+
+_$ ls_
+
+_shell.c  test_ls_2_
+
+2. With argument
+
+_$ /bin/ls -la_
+
+_total 20_
+
+_-rw-r--r-- 1 ansayong ansayong  1469 Jul 26 16:40 shell.c_
+
+_-rw-r--r-- 1 ansayong ansayong    16 Jul 25 17:18 test_ls_2_
+
+## Contributing:
+
+We welcome contributions from the community! If you'd like to contribute to the
+Simple Shell project, please find our contact details in the AUTHORS file.
+
+## License:
+
+Not licensed
+
+## Support:
+
+If you encounter any issues or have questions about the Simple Shell, please feel
+free to create an issue in our GitHub repository or contact us using details from
+the AUTHORS file..
+
+## Acknowledgments:
+
+We would like to thank all the contributors and the ALX SE program that inspired
+and helped us in developing this simple shell.
+
+## Roadmap:
+
+- Improve error handling and error messages
+- Add support for background processes
+- Enhance tab-completion and command history functionality
+- We appreciate your interest in the Simple Shell project and hope it proves to be a
+useful learning tool and foundation for further exploration into shell development. Happy coding!
