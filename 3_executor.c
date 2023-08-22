@@ -37,7 +37,6 @@ int execute_command(cmd_info *command, int *c_status)
 		{
 			cmd_status = WEXITSTATUS(status);
 			*c_status = cmd_status;
-			return (cmd_status);
 		}
 	}
 	return (-1);
