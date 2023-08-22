@@ -13,7 +13,7 @@ cmd_info *execute_exit(cmd_info *command)
 	if (command->numb_args == 1)
 	{
 		/*free_cmd_info(command);*/
-		exit(EXIT_SUCCESS);
+		exit(0);
 	}
 	else if (command->numb_args == 2)
 	{
