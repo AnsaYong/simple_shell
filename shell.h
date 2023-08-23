@@ -20,7 +20,7 @@ extern char **environ;
 
 /* 2_parser.c */
 /**
- * struct command_info - store information about a single command
+ * struct command_info - store information about a single command.
  * @cmd_name: A string (char pointer) representing the command name
  * @numb_args: An integer representing the number of arguments for the command
  * @args: A pointer to an array of strings (char pointers) to store the
